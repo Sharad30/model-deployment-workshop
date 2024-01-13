@@ -39,9 +39,9 @@
         
     1. Create docker image
         ```
-        docker build -t ml_deployment .
+        sudo docker build -t ml_deployment .
         ```
     2. Run docker container
         ```
-        docker run -d -p 8501:8501 -p 5000:5000 ml_deployment
+        sudo docker run -d -p 8501:8501 -p 5000:5000 ml_deployment
         ```
