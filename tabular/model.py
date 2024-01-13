@@ -1,17 +1,18 @@
 # Import libraries
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from sklearn.datasets import load_iris
+from sklearn.datasets import load_diabetes
 import pandas as pd
 import pickle
 
 
 # Load the Iris dataset
-iris = load_iris()
+diabetes = load_diabetes()
 
 # Access the data and target variables
-X = iris.data  # Features (sepal length, sepal width, petal length, petal width)
-y = iris.target  # Target variable (species: setosa, versicolor, virginica)
+X = diabetes.data  # Features (sepal length, sepal width, petal length, petal width)
+y = diabetes.target  # Target variable (species: setosa, versicolor, virginica)
+
 
 # Split data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
