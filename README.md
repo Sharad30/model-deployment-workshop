@@ -7,8 +7,8 @@
     2. Create python environment
         ```
         > python -m venv ml
-        > chmod +x deployment/bin/activate
-        > source deployment/bin/activate
+        > chmod +x ml/bin/activate
+        > source ml/bin/activate
         ```
     3. Install packages
         ```
