@@ -34,6 +34,9 @@
         ```
 
 5. Run the app locally using Docker
+    1. Install docker(skip if already installed)
+        - [Steps to install Docker on your system](https://docs.docker.com/engine/install/ubuntu/)
+        
     1. Create docker image
         ```
         docker build -t ml_deployment .
